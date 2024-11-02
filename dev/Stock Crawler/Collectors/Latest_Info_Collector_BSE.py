@@ -6,7 +6,7 @@ import csv
 b = BSE(update_codes=True)
 
 # Define the path of the input CSV file containing scrip codes and the output CSV file
-csv_input_file = 'sources/stock_data.csv'  # Change this to your actual input CSV file path
+csv_input_file = 'Stock Craweler/Collectors/sources/stock_data.csv'  # Change this to your actual input CSV file path
 csv_output_file = 'latest_data/latest_stock_data.csv'
 
 # List to store fieldnames for CSV
